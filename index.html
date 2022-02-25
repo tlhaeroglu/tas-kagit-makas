@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img{
+        max-width: 150px;
+    }
+    .panel{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+
+    .p1, .p2, .c1, .c2{
+        padding: 50px;
+
+    }
+    .c1 img, .c2 img{
+        max-width: 69px;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: rgb(172, 172, 172);
+    }
+  </style>
+  <body>
+      <div class="text">
+          <h2>T-K-M</h2>
+      </div>
+    <div class="panel">
+        <div class="p1">
+            <img src="img/wait.png" id="img1" alt="" />
+        </div>
+        <hr>
+        <div class="p2">
+            <img src="img/wait.png" id="img2" alt="" />
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="c1">
+            <img src="img/tas.png" role="button" alt="">
+            <img src="img/kagit.png" role="button" alt="">
+            <img src="img/makas.png" role="button" alt="">
+        </div>
+        <div class="c2">
+            <img src="img/tas.png" role="button" alt="">
+            <img src="img/kagit.png" role="button" alt="">
+            <img src="img/makas.png" role="button" alt="">
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
